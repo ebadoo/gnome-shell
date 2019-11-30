@@ -15,16 +15,16 @@ const Params = imports.misc.params;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 
 // Time for initial animation going into Overview mode
-var ANIMATION_TIME = 250;
+var ANIMATION_TIME = 50;
 
 // Must be less than ANIMATION_TIME, since we switch to
 // or from the overview completely after ANIMATION_TIME,
 // and don't want the shading animation to get cut off
-var SHADE_ANIMATION_TIME = 200;
+var SHADE_ANIMATION_TIME = 50;
 
 var DND_WINDOW_SWITCH_TIMEOUT = 750;
 
-var OVERVIEW_ACTIVATION_TIMEOUT = 0.5;
+var OVERVIEW_ACTIVATION_TIMEOUT = 0.1;
 
 var ShellInfo = class {
     constructor() {
