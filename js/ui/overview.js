@@ -22,7 +22,7 @@ var ANIMATION_TIME = 50;
 // and don't want the shading animation to get cut off
 var SHADE_ANIMATION_TIME = 50;
 
-var DND_WINDOW_SWITCH_TIMEOUT = 750;
+var DND_WINDOW_SWITCH_TIMEOUT = 50;
 
 var OVERVIEW_ACTIVATION_TIMEOUT = 0.1;
 
